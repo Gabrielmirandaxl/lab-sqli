@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gabri\\Documents\\lab-sqli\\lab-sqli.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gabri\\Documents\\lab-sqli\\lab-sqli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gabri\\Documents\\lab-sqli\\lab-sqli.csproj",
+        "projectName": "lab-sqli",
+        "projectPath": "C:\\Users\\gabri\\Documents\\lab-sqli\\lab-sqli.csproj",
+        "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gabri\\Documents\\lab-sqli\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://gitlab.equipeblue.com.br/api/v4/projects/44/packages/nuget/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.151, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.Owin.Security.Jwt": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

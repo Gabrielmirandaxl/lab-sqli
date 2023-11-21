@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fOftOueaDOrIZ0FOAN18G+7FQZ3QfIi6pRO7mtrf94w=",
+  "Source": "lab-sqli",
+  "BasePath": "_content/lab-sqli",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
