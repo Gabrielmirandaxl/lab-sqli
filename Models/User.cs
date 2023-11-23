@@ -12,15 +12,22 @@ namespace lab_sqli.Models
         public string Email { get; set; }
         public string User_Password { get; set; }
 
+        public User()
+        {
+            
+        }
+
         public User(
             int id, 
             string userName, 
-            string email
+            string email,
+            string password
         )
         {
             Id = id;
             User_Name = userName;
             Email = email;
+            User_Password = password;
         }
     }
 }

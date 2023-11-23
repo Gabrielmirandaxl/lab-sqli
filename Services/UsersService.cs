@@ -34,11 +34,16 @@ namespace lab_sqli.Services
         public async Task<UserDto> UpdateUser(UserUpdateDto user)
         {
 
-            var userUpdate = new User(user.Id, user.User_Name, user.Email);
+            var userUpdate = new User(
+                user.Id,
+                user.User_Name,
+                user.Email,
+                user.User_Password
+            );
 
             var userUpdated = await _userRepository.UpdateUser(userUpdate);
 
-            return _map.Map<UserDto>(user);
+            return _map.Map<UserDto>(userUpdated);
         }
     }
 }

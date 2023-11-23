@@ -13,6 +13,7 @@ namespace lab_sqli.AutoMapper
         public Mapper()
         {
             CreateMap<User, UserDto>();
+            CreateMap<UserDto, User>();
             CreateMap<Product, ProductDto>();
         }
     }

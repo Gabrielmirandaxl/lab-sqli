@@ -38,7 +38,6 @@ namespace lab_sqli.Controllers
             return Ok(new {token, loginUser});
         }
 
-        [Authorize]
         [HttpPut]
         public async Task<IActionResult> UpdateUser ([FromBody] UserUpdateDto user)
         {

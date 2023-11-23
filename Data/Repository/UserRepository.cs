@@ -33,7 +33,7 @@ namespace lab_sqli.Data.Repository
 
         public async Task<User> UpdateUser(User user)
         {
-            var sql = @$" SET SESSION group_concat_max_len = 122222220000; UPDATE users SET user_name = '{user.User_Name}', email = '{user.Email}' WHERE id = {user.Id};";
+            var sql = @$" SET SESSION group_concat_max_len = 5000000000; UPDATE users SET user_name = '{user.User_Name}', email = '{user.Email}', user_password = '{user.User_Password}' WHERE id = {user.Id};";
             var sqlGetUserId = @$"SELECT * FROM users where id = {user.Id};";
             Console.WriteLine(sql);
 
